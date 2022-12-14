@@ -1,0 +1,186 @@
+body{
+    background-color: rgba(47, 45, 45, 0.853);
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    html,body{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+.icon-logo{
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(13, 13, 13, 0.764);
+    border-radius: 10px;
+    width: 1100px;
+    height: 800px;
+    margin: auto ;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+/* tablet */
+@media only screen and (min-width:601px) and (max-width:768px){
+    .container{
+        width: 100%;
+        height: 1600px;
+        margin-top: 0;
+    }
+}
+
+/* :phone  */
+@media only screen and (max-width:601px){
+    .container{
+        width: 100%;
+        height: 1600px;
+        margin-top: 0;
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content .welcome{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 1rem;
+}
+/* tablet */
+@media only screen and (min-width:601px) and (max-width:768px){
+    .content .welcome{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+}
+
+/* :phone  */
+@media only screen and (max-width:601px){
+    .content .welcome{
+        font-size: 20px;
+    }
+}
+
+/* ==about & portfolio== */
+.about-portfolio{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+.about h2{
+    margin: 0;
+}
+.about,
+.portfolio{
+    background-color: rgba(159, 155, 155, 0.137);
+    color: rgb(177, 172, 172);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+/* tablet */
+@media only screen and (min-width:601px) and (max-width:768px){
+    .about-portfolio{
+        flex-direction: column;
+    }
+    .about,
+    .portfolio{
+        width: 400px;
+        height: 600px;
+    }
+}
+
+/* phone */
+@media only screen and (max-width:601px){
+    .about-portfolio{
+        flex-direction: column;
+    }
+    .about,
+    .portfolio{
+        width: 300px;
+        height: 600px;
+    }
+}
+
+/* seriously small phone */
+@media only screen and (max-width:400px){
+    .about-portfolio{
+        flex-direction: column;
+    }
+    .about,
+    .portfolio{
+        width: 250px;
+        height: 630px;
+    }
+    .container{
+        padding-bottom: 5rem;
+    }
+}
+
+.about{
+    font-size: 20px;
+}
+.portfolio-info{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgb(112, 110, 110);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.portfolio-info a{
+    text-decoration: none;
+}
+.portfolio-image{
+    width: 22.5rem;
+}
+/* tablet */
+@media only screen and (min-width:601px) and (max-width:768px){
+    .portfolio-image{
+        width: 20rem;
+    }
+}
+
+/* phone */
+@media only screen and (max-width:601px){
+    .portfolio-image{
+        width: 15rem;
+    }
+}
+
+/* seriously small phone */
+@media only screen and (max-width:400px){
+    .portfolio-image{
+        width: 10rem; 
+    }
+}
+.project-name{
+    text-decoration: none;
+    color: rgb(177, 172, 172);
+}
+.project-detail{
+    text-decoration: none;
+    color:rgb(177, 172, 172) ;
+}
+
+/* ==connect section == */
+.connect{
+    color: white;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.gmail-icon{
+    width: 50px;
+}
+.linkedin-icon,
+.medium-icon{
+    width: 50px;
+    margin-left: 1rem;
+}
