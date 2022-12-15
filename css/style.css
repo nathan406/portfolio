@@ -117,11 +117,11 @@ body{
     }
     .about,
     .portfolio{
-        width: 250px;
-        height: 630px;
+        width: 200px;
+        height: 800px;
     }
     .container{
-        padding-bottom: 5rem;
+        padding-bottom: 15rem;
     }
 }
 
